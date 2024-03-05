@@ -56,17 +56,20 @@ export default function Home() {
       </section>
 
       {/* Get in touch */}
-      <section className="flex flex-row">
-        <div></div>
-        <div>
+      <section className="flex flex-row bg-secondary text-white h-52">
+        <div className="w-[40%] h-full bg-hero-map bg-no-repeat bg-left"></div>
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-xl text-center mb-3.5">
+            Call to get in touch. Lorem ipsum dolor sit amet.
+          </p>
           <button
             type="button"
-            class="text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
+            class="text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
           >
             GET IN TOUCH
           </button>
         </div>
-        <div></div>
+        <div className="w-[40%] h-full bg-hero-map bg-no-repeat bg-right"></div>
       </section>
 
       {/* Adventure stories */}

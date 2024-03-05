@@ -21,7 +21,7 @@ export const metadata = {
     "Discover unforgettable adventures with Maape Adventures. Our expertly curated tours offer immersive experiences to destinations around the globe. From breathtaking landscapes to cultural gems, embark on journeys tailored to your interests and preferences. Explore the world with confidence, guided by our seasoned travel professionals. Start your next adventure today!",
   icons: {
     icon: ["/favicon.ico"],
-    manifest: "../../public/site.webmanifest",
+    manifest: "/site.webmanifest",
   },
 };
 

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/images/home_page/u9.svg')",
+        "hero-map": "url('/images/home_page/u61.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

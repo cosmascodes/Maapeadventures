@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-redTheme py-12 flex flex-col justify-center items-center">
-        <p className="text-center text-white text-lg font-semibold w-1/2 mb-4">
+        <p className="text-center text-white text-lg font-semibold lg:w-[30%] mb-4">
           Call to sign up for newsletter. Lorem ipsum dolor sit amet,
           consectetuer adipiscing elit.
         </p>
@@ -13,14 +13,14 @@ const Footer = () => {
             type="email"
             id="email"
             aria-describedby="helper-text-explanation"
-            class="w-[300px] bg-gray-50 border me-2 border-gray-300 
+            class="w-[400px] bg-gray-50 border me-2 border-gray-300 
             text-gray-900 text-sm rounded-lg focus:ring-blue-500 
             focus:border-blue-500 px-2.5  "
             placeholder="Your email address"
           />
           <button
             type="button"
-            class="py-2.5 px-5 text-sm font-medium focus:outline-none 
+            class="font-mono py-2.5 px-10 text-sm font-medium focus:outline-none 
             text-white rounded-lg border border-gray-200 hover:bg-gray-100
              hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
           >
