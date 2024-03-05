@@ -4,22 +4,22 @@ import AdventureStory from "@/components/story";
 export default function Home() {
   const adventureData = [
     {
-      title: "Safari Adventures",
+      title: "adventure title",
     },
     {
-      title: " Mountain Escapes",
+      title: " adventure title",
     },
     {
-      title: "Island Expeditions",
+      title: "adventure title ",
     },
     {
-      title: "Jungle Journeys",
+      title: "adventure title ",
     },
     {
-      title: "Desert Dreams",
+      title: " adventure title",
     },
     {
-      title: "Ocean Odyssey",
+      title: " adventure title",
     },
   ];
   const adventureStory = [
@@ -45,9 +45,9 @@ export default function Home() {
       {/* Hero section */}
       <section className="h-[65vh] relative">
         <div className="bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat  px-96 absolute top-0 left-0 h-full flex items-center">
-          <div className="p-5 text-white flex flex-col text-center justify-center items-center w-[440px] h-[300px] rounded-3xl bg-primary mt-10">
-            <h1 className="font-duality text-5xl">Explore Nairobi</h1>
+          <div className="p-5 text-white flex flex-col text-center justify-center items-center w-[440px] h-[300px] rounded-[36px] bg-primary mt-10">
             <p className="my-5 text-xl">
+              <h1 className="font-duality text-5xl">Explore Nairobi</h1>
               Welcome and short paragraph of what Maape does.
             </p>
             <button
@@ -57,6 +57,9 @@ export default function Home() {
               Choose an adventure
             </button>
           </div>
+        </div>
+        <div className="w-full h-full bg-slate-300 flex justify-end pr-80">
+          <div className="w-2/3 h-full bg-white"></div>
         </div>
       </section>
 
