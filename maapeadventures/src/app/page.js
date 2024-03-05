@@ -1,5 +1,6 @@
 import Adventure from "@/components/adventure";
 import AdventureStory from "@/components/story";
+import SwiperSlider from "@/components/swiperImages";
 
 export default function Home() {
   const adventureData = [
@@ -44,7 +45,7 @@ export default function Home() {
     <main>
       {/* Hero section */}
       <section className="h-[65vh] relative">
-        <div className="bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat  px-96 absolute top-0 left-0 h-full flex items-center">
+        <div className="z-10 bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat  px-96 absolute top-0 left-0 h-full flex items-center">
           <div className="p-5 text-white flex flex-col text-center justify-center items-center w-[440px] h-[300px] rounded-[36px] bg-primary mt-10">
             <p className="my-5 text-xl">
               <h1 className="font-duality text-5xl">Explore Nairobi</h1>
@@ -58,8 +59,10 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="w-full h-full bg-slate-300 flex justify-end pr-80">
-          <div className="w-2/3 h-full bg-white"></div>
+        <div className="w-full h-full flex justify-end items-end pr-80">
+          <div className="w-2/3 h-full flex justify-center items-end rounded-3xl">
+            <SwiperSlider />
+          </div>
         </div>
       </section>
 
