@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-full flex justify-end items-end pr-80">
-          <div className="w-2/3 h-full flex justify-center items-end rounded-3xl">
+          <div className="w-[60%] h-full flex justify-center items-end rounded-3xl">
             <SwiperSlider />
           </div>
         </div>
