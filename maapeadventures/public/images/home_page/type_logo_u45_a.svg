@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1158.65 575.55">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 204.33px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #0f5257;
+        font-family: Duality-Regular, Duality;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        font-size: 372.56px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(0 333.07)"><tspan x="0" y="0">MAAPE</tspan></text>
+      <text class="cls-1" transform="translate(2.6 534.68)"><tspan x="0" y="0">A</tspan><tspan class="cls-3" x="126.69" y="0">D</tspan><tspan x="234.78" y="0">VENTURES</tspan></text>
+    </g>
+  </g>
+</svg>
