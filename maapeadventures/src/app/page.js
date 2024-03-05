@@ -25,20 +25,20 @@ export default function Home() {
   ];
   const adventureStory = [
     {
-      title: "Safari Adventures",
-      author: "Adventurer's name",
+      title: "ADVENTURE STORY TITLE",
+      author: "Adventurer's names",
     },
     {
-      title: " Mountain Escapes",
-      author: "Adventurer's name",
+      title: " ADVENTURE STORY TITLE ",
+      author: "Adventurer's names",
     },
     {
-      title: "Island Expeditions",
-      author: "Adventurer's name",
+      title: "ADVENTURE STORY TITLE ",
+      author: "Adventurer's names",
     },
     {
-      title: "Jungle Journeys",
-      author: "Adventurer's name",
+      title: " ADVENTURE STORY TITLE",
+      author: "Adventurer's names",
     },
   ];
   return (
