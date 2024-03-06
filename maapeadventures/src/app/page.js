@@ -86,7 +86,7 @@ export default function Home() {
       <section className="flex flex-row bg-secondary text-white h-40 md:h-52">
         <div className="hidden md:inline w-[40%] h-full bg-hero-map bg-no-repeat bg-left"></div>
         <div className="flex flex-col justify-center md:items-center mx-6">
-          <p className="text-xl md:text-center mb-3.5">
+          <p className="text-sm md:text-xl md:text-center mb-3.5">
             Call to get in touch. Lorem ipsum dolor sit amet.
           </p>
           <button
@@ -100,11 +100,11 @@ export default function Home() {
       </section>
 
       {/* Adventure stories */}
-      {/* <section className="bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat flex flex-col justify-center items-center p-24 pb-12">
-        <h1 className="font-duality text-6xl text-text mb-8">
+      <section className="md:bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat flex flex-col justify-center items-center md:pt-24 md:pb-12 py-8">
+        <h1 className="font-duality text-3xl md:text-6xl text-text md:mb-12">
           Adventure stories
         </h1>
-        <div className="grid grid-cols-2 place-content-center gap-12">
+        <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto overscroll-x-contain no-scrollbar md:grid-cols-2 md:place-content-center md:gap-12">
           {adventureStory.map((adventureStory, index) => {
             return (
               <AdventureStory
@@ -114,11 +114,12 @@ export default function Home() {
               />
             );
           })}
+          <div className="w-6 md:hidden"></div>
         </div>
-        <a className="mt-12 text-secondary text-xl underline">
+        <a className="mt-8 md:mt-12 md:mb-12 text-secondary text-xl underline">
           MORE ADVENTURE STORIES
         </a>
-      </section> */}
+      </section>
     </main>
   );
 }
