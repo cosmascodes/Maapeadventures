@@ -67,14 +67,15 @@ export default function Home() {
       </section>
 
       {/* Choose adventures */}
-      <section className="md:bg-hero-pattern bg-[length:22vw] bg-[center_right_24rem] bg-no-repeat flex flex-col justify-center items-center p-12 md:p-24 pb-12">
+      <section className="md:bg-hero-pattern bg-[length:22vw] bg-[center_right_24rem] bg-no-repeat flex flex-col justify-center items-center md:p-24 py-12">
         <h1 className="font-duality text-3xl md:text-6xl text-text mb-8">
           Choose an adventure
         </h1>
-        <div className=" grid grid-cols-1 md:grid-cols-3 place-content-center gap-12">
+        <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto md:grid-cols-3 md:place-content-center md:gap-12">
           {adventureData.map((adventure, index) => {
             return <Adventure key={index} title={adventure.title} />;
           })}
+          <div className="w-6 md:hidden"></div>
         </div>
         <a className="mt-12 text-secondary text-xl underline">ALL ADVENTURES</a>
       </section>
