@@ -24,7 +24,7 @@ export default function SwiperSlider() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade]}
-        className="w-full h-full md:h-[85%] md:rounded-[60px]"
+        className="w-full h-full lg:h-[85%] lg:rounded-[60px]"
       >
         <SwiperSlide>
           <img
