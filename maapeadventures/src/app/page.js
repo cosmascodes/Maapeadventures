@@ -83,21 +83,21 @@ export default function Home() {
       </section>
 
       {/* Get in touch */}
-      {/* <section className="flex flex-row bg-secondary text-white h-52">
-        <div className="w-[40%] h-full bg-hero-map bg-no-repeat bg-left"></div>
-        <div className="flex flex-col justify-center items-center">
-          <p className="text-xl text-center mb-3.5">
+      <section className="flex flex-row bg-secondary text-white h-40 md:h-52">
+        <div className="hidden md:inline w-[40%] h-full bg-hero-map bg-no-repeat bg-left"></div>
+        <div className="flex flex-col justify-center md:items-center mx-6">
+          <p className="text-xl md:text-center mb-3.5">
             Call to get in touch. Lorem ipsum dolor sit amet.
           </p>
           <button
             type="button"
-            class="text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
+            class=" w-fit text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
           >
             GET IN TOUCH
           </button>
         </div>
-        <div className="w-[40%] h-full bg-hero-map bg-no-repeat bg-right"></div>
-      </section> */}
+        <div className="w-1/2 md:w-[40%] h-full bg-hero-map bg-cover md:bg-contain bg-no-repeat bg-left md:bg-right"></div>
+      </section>
 
       {/* Adventure stories */}
       {/* <section className="bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat flex flex-col justify-center items-center p-24 pb-12">
