@@ -67,8 +67,8 @@ export default function Home() {
       </section>
 
       {/* Choose adventures */}
-      <section className="md:bg-hero-pattern bg-[length:22vw] bg-[center_right_24rem] bg-no-repeat flex flex-col justify-center items-center md:p-24 py-12">
-        <h1 className="font-duality text-3xl md:text-6xl text-text mb-8">
+      <section className="md:bg-hero-pattern bg-[length:22vw] bg-[center_right_24rem] bg-no-repeat flex flex-col justify-center items-center md:pt-24 md:pb-12 py-8">
+        <h1 className="font-duality text-3xl md:text-6xl text-text mb-8 md:mb-12">
           Choose an adventure
         </h1>
         <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto md:grid-cols-3 md:place-content-center md:gap-12">
@@ -77,7 +77,9 @@ export default function Home() {
           })}
           <div className="w-6 md:hidden"></div>
         </div>
-        <a className="mt-12 text-secondary text-xl underline">ALL ADVENTURES</a>
+        <a className="mt-8 md:mt-12 text-secondary text-xl underline">
+          ALL ADVENTURES
+        </a>
       </section>
 
       {/* Get in touch */}
