@@ -71,7 +71,7 @@ export default function Home() {
         <h1 className="font-duality text-3xl md:text-6xl text-text mb-8 md:mb-12">
           Choose an adventure
         </h1>
-        <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto md:grid-cols-3 md:place-content-center md:gap-12">
+        <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto overscroll-x-contain no-scrollbar md:grid-cols-3 md:place-content-center md:gap-12">
           {adventureData.map((adventure, index) => {
             return <Adventure key={index} title={adventure.title} />;
           })}
