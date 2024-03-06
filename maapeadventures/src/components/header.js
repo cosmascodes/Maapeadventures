@@ -10,7 +10,7 @@ const Header = () => {
           height={40}
         />
       </div>
-      <div className="hidden">
+      <div className="hidden md:inline">
         <Image
           src={"/images/home_page/type_logo_u45_a.svg"}
           width={80}
