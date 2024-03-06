@@ -15,12 +15,12 @@ const Footer = () => {
             aria-describedby="helper-text-explanation"
             className="w-full md:w-[400px] bg-gray-50 border me-2 border-gray-300 
             text-gray-900 text-sm rounded-lg focus:ring-blue-500 
-            focus:border-blue-500 px-2.5  "
+            focus:border-blue-500 px-2.5  py-2.5"
             placeholder="Your email address"
           />
           <button
             type="button"
-            className="font-mono md;py-2.5 px-10 text-sm font-medium focus:outline-none 
+            className="font-mono mt-4 md:mt-0 py-2.5 px-10 text-sm font-medium focus:outline-none 
             text-white rounded-lg border border-gray-200 hover:bg-gray-100
              hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
           >
@@ -41,7 +41,7 @@ const Footer = () => {
               <a href="#">LEGAL</a>
             </li>
           </ul>
-          <p className="text-sm hidden md:visible">
+          <p className="text-sm hidden md:block">
             © 2023 Maape Adventures. All Rights Reserved
           </p>
         </div>
