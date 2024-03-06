@@ -59,8 +59,8 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="w-full h-full flex justify-end items-end md:pr-80">
-          <div className="md:w-[60%] h-full flex justify-center items-end md:rounded-3xl">
+        <div className="w-full h-full flex md:justify-end md:items-end md:pr-80">
+          <div className="w-full md:w-[60%] h-full flex justify-center items-end md:rounded-3xl">
             <SwiperSlider />
           </div>
         </div>

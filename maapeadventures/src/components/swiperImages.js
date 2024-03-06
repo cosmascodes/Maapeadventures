@@ -18,6 +18,7 @@ export default function SwiperSlider() {
       <Swiper
         spaceBetween={30}
         effect={"fade"}
+        loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
