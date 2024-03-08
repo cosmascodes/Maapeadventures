@@ -1,12 +1,4 @@
 const Team = () => {
-  const teamData = [
-    {
-      image: "/images/meet_the_team/u609.svg",
-      name: "firstname lastname",
-      position: "position",
-      decription: "description",
-    },
-  ];
   return (
     <>
       <section className=" mt-16 flex flex-row bg-secondary text-white p-5">
