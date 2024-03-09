@@ -80,7 +80,7 @@ const Adventure = () => {
             </div>
           </div>
           <div className="flex flex-row text-white justify-between items-center mt-6">
-            <button className="uppercase text-[12px] font-bold px-4 py-1 rounded border-2 border-white h-fit">
+            <button className="uppercase text-[12px] font-bold px-4 py-1 rounded border-2 border-white w-1/2 mr-2 h-fit">
               pay now
             </button>
             <p className="text-[11px] w-48 leading-4">
