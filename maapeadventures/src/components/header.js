@@ -11,12 +11,14 @@ const Header = () => {
   return (
     <div className="fixed z-50 w-full h-[60px] top-0 left-0 flex flex-row bg-white items-center justify-between px-6 md:px-24 2xl:px-80">
       <div>
-        <Image
-          src={"/images/home_page/icon_logo_u43.svg"}
-          width={35}
-          height={40}
-          className=" cursor-pointer "
-        />
+        <a href="/">
+          <Image
+            src={"/images/home_page/icon_logo_u43.svg"}
+            width={35}
+            height={40}
+            className=" cursor-pointer "
+          />
+        </a>
       </div>
       <div className="hidden md:inline">
         <Image
