@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section className=" mt-16 p-6 pb-0 text-text">
       <h1 className="text-center text-6xl font-duality mb-6">Get in Touch</h1>
-      <p>
+      <p className=" text-xl text-center ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
         bibendum laoreet.
       </p>
