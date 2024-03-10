@@ -51,8 +51,8 @@ const Header = () => {
       <nav
         className={`${
           isActive
-            ? "absolute bg-white top-full left-0 w-full h-screen transition-height  overflow-hidden flex flex-col justify-center items-center font-duality text-5xl text-center text-text"
-            : "absolute bg-white top-full left-0 w-full h-0 transition-height  overflow-hidden flex flex-col justify-center items-center font-duality text-5xl text-center text-text"
+            ? "absolute bg-white top-full left-0 w-full h-screen transition-height duration-300 overflow-hidden flex flex-col justify-center items-center font-duality text-5xl text-center text-text"
+            : "absolute bg-white top-full left-0 w-full h-0 transition-height duration-200 overflow-hidden flex flex-col justify-center items-center font-duality text-5xl text-center text-text"
         }`}
       >
         <ul>
