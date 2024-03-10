@@ -6,7 +6,7 @@ const Contact = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
         bibendum laoreet.
       </p>
-      <div className="flex flex-col md:flex-row bg-hero-map bg-no-repeat bg-bottom">
+      <div className="flex flex-col md:flex-row bg-hero-map bg-no-repeat bg-bottom bg-cover">
         <div className="bg-secondary rounded-2xl flex justify-center items-center flex-col py-4 my-6">
           <h2 className="uppercase font-mono font-bold tracking-wider text-xl">
             Mobile
