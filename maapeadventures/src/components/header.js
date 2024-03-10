@@ -28,12 +28,14 @@ const Header = () => {
         />
       </div>
       <div className="flex flex-row items-center justify-center">
-        <button
-          type="button"
-          className="hidden text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
-        >
-          GET IN TOUCH
-        </button>
+        <a href="/get_in_touch">
+          <button
+            type="button"
+            className="hidden md:inline text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
+          >
+            GET IN TOUCH
+          </button>
+        </a>
         <Image
           onClick={handletoggleActive}
           src={`${
@@ -102,12 +104,14 @@ const Header = () => {
               Meet the team
             </a>
           </li>
-          <button
-            type="button"
-            className="text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-8 py-3.5"
-          >
-            GET IN TOUCH
-          </button>
+          <a href="/get_in_touch" className="md:hidden">
+            <button
+              type="button"
+              className="text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-8 py-3.5"
+            >
+              GET IN TOUCH
+            </button>
+          </a>
         </ul>
       </nav>
     </div>
