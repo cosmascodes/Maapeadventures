@@ -27,8 +27,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${duality.variable} ${mono.variable} font-interstate`}>
+    <html lang="en" className="no-scrollbar">
+      <body className={`${duality.variable} ${mono.variable} font-interstate `}>
         <Header />
         {children}
         <Footer />

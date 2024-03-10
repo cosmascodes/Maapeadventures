@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: "height",
+        opacity: "opacity",
+      },
       backgroundImage: {
         "hero-pattern": "url('/images/home_page/u9.svg')",
         "hero-map": "url('/images/home_page/u61.svg')",
