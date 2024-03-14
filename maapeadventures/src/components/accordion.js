@@ -14,7 +14,7 @@ const Accordion = (props) => {
     >
       <div
         onClick={handletoggleActive}
-        className="flex flex-row items-center p-2 cursor-pointer bg-secondary text-white group-[.is-active]:font-bold"
+        className="flex flex-row items-center p-2 cursor-pointer bg-secondary group-[.is-active]:bg-primary text-white group-[.is-active]:font-bold"
       >
         <p>{item.question}</p>
         <div>
@@ -34,7 +34,7 @@ const Accordion = (props) => {
           </svg>
         </div>
       </div>
-      <div className="overflow-hidden max-h-0 group-[.is-active]:max-h-fit">
+      <div className="overflow-hidden max-h-0 group-[.is-active]:max-h-fit pt-5">
         <p>{item.answer}</p>
       </div>
     </div>

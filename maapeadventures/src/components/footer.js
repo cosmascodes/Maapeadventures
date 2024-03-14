@@ -32,13 +32,13 @@ const Footer = () => {
         <div>
           <ul className="mb-2 flex flex-col md:flex-row text-secondary underline text-md w-[320px] justify-between">
             <li>
-              <a href="#">OUR SAFETY PROMISE</a>
+              <a href="/our_safety_promise">OUR SAFETY PROMISE</a>
             </li>
             <li>
-              <a href="#">FAQS</a>
+              <a href="/faqs">FAQS</a>
             </li>
             <li>
-              <a href="#">LEGAL</a>
+              <a href="/legal">LEGAL</a>
             </li>
           </ul>
           <p className="text-sm hidden md:block">

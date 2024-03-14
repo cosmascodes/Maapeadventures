@@ -43,9 +43,9 @@ const FAQs = () => {
     },
   ]);
   return (
-    <section className=" mt-16 p-6 text-text">
+    <section className=" mt-16 p-6 text-text flex flex-col justify-center items-center">
       <h1 className="text-center text-6xl font-duality mb-6">FAQs</h1>
-      <div>
+      <div className="grid md:grid-cols-2 md:w-3/4 gap-12">
         {list.map((item, key) => (
           <Accordion key={key} datas={item} />
         ))}
