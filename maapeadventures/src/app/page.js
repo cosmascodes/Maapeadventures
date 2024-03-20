@@ -59,7 +59,7 @@ export default function Home() {
               <Link
                 href={{
                   pathname: "/singleadventure",
-                  query: { title: adventure.title },
+                  query: { id: adventure.id },
                 }}
                 key={index}
               >

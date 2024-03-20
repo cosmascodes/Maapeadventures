@@ -1,7 +1,8 @@
 import { getSingleAdventure } from "@/helpers";
 
 const Adventure = ({ searchParams }) => {
-  const SingleAdv = getSingleAdventure(searchParams.title);
+  const SingleAdv = getSingleAdventure(searchParams.id);
+  console.log(searchParams.id);
   return (
     <section className="text-text mt-12 py-12 px-6 flex flex-col justify-between items-center">
       <h1 className="text-center text-6xl font-duality my-6">

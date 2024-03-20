@@ -1,25 +1,28 @@
 const AdventuresData = [
   {
+    id: "1",
     image: "/images/home_page/u122_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
     Duration: "",
     startTime: "",
-    price: "",
+    price: "2,500",
     inclusive: ["Tour guide", "Bottle of water"],
     needs: ["Gear", "Meal"],
   },
   {
+    id: "2",
     image: "/images/home_page/u118_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
     Duration: "",
     startTime: "",
-    price: "",
+    price: "3",
     inclusive: ["Tour guide", "Bottle of water"],
     needs: ["Gear", "Meal"],
   },
   {
+    id: "3",
     image: "/images/home_page/u114_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
@@ -30,6 +33,7 @@ const AdventuresData = [
     needs: ["Gear", "Meal"],
   },
   {
+    id: "4",
     image: "/images/home_page/u126_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
@@ -40,6 +44,7 @@ const AdventuresData = [
     needs: ["Gear", "Meal"],
   },
   {
+    id: "5",
     image: "/images/home_page/u110_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
@@ -50,6 +55,7 @@ const AdventuresData = [
     needs: ["Gear", "Meal"],
   },
   {
+    id: "6",
     image: "/images/home_page/u130_a.svg",
     title: "ADVENTURE STORY TITLE",
     details: "",
