@@ -21,11 +21,14 @@ const Header = () => {
         </a>
       </div>
       <div className="hidden md:inline">
-        <Image
-          src={"/images/home_page/type_logo_u45_a.svg"}
-          width={80}
-          height={40}
-        />
+        <a href="/">
+          <Image
+            src={"/images/home_page/type_logo_u45_a.svg"}
+            width={80}
+            height={40}
+            className=" cursor-pointer "
+          />
+        </a>
       </div>
       <div className="flex flex-row items-center justify-center">
         <a href="/get_in_touch">

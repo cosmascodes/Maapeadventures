@@ -1,28 +1,10 @@
 import Adventure from "@/components/adventure";
 import AdventureStory from "@/components/story";
 import SwiperSlider from "@/components/swiperImages";
+import AdventuresData from "./api/data";
+import Link from "next/link";
 
 export default function Home() {
-  const adventureData = [
-    {
-      title: "adventure title",
-    },
-    {
-      title: " adventure title",
-    },
-    {
-      title: "adventure title ",
-    },
-    {
-      title: "adventure title ",
-    },
-    {
-      title: " adventure title",
-    },
-    {
-      title: " adventure title",
-    },
-  ];
   const adventureStory = [
     {
       title: "ADVENTURE STORY TITLE",
@@ -72,8 +54,18 @@ export default function Home() {
           Choose an adventure
         </h1>
         <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto overscroll-x-contain no-scrollbar md:grid-cols-3 md:place-content-center md:gap-12">
-          {adventureData.map((adventure, index) => {
-            return <Adventure key={index} title={adventure.title} />;
+          {AdventuresData.map((adventure, index) => {
+            return (
+              <Link
+                href={{
+                  pathname: "/singleadventure",
+                  query: { title: adventure.title },
+                }}
+                key={index}
+              >
+                <Adventure image={adventure.image} title={adventure.title} />
+              </Link>
+            );
           })}
           <div className="w-6 md:hidden"></div>
         </div>
@@ -91,7 +83,7 @@ export default function Home() {
           </p>
           <button
             type="button"
-            class=" w-fit text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
+            className=" w-fit text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
           >
             GET IN TOUCH
           </button>

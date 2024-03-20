@@ -1,4 +1,7 @@
-const Adventure = () => {
+import { getSingleAdventure } from "@/helpers";
+
+const Adventure = ({ searchParams }) => {
+  const SingleAdv = getSingleAdventure(searchParams.title);
   return (
     <section className="text-text mt-12 py-12 px-6 flex flex-col justify-between items-center">
       <h1 className="text-center text-6xl font-duality my-6">
@@ -6,45 +9,34 @@ const Adventure = () => {
       </h1>
 
       <div className="md:w-3/4 flex flex-col justify-between items-center md:px-24">
-        <img
-          src="/images/single_adventure/u136.svg"
-          alt="img"
-          className="w-full md:w-auto"
-        />
+        <img src={SingleAdv.image} alt="img" className="w-full md:w-auto" />
         <div className="grid md:grid-cols-2 text-xl">
-          <article>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-            accumsan et viverra justo commodo.
-            <br />
-            <br />
-            Proin sodales pulvinar tempor. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
-            nulla luctus pharetra vulputate, felis tellus mollis orci, sed
-            rhoncus sapien nunc eget odio.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-            accumsan et viverra justo commodo.
-          </article>
+          <article>{SingleAdv.details}</article>
           <div className="mt-6 md:pl-10">
             <h2 className="uppercase font-bold font-mono tracking-wider mt-4 text-2xl">
               itinerary
             </h2>
-            <p>Duration: 7 hours</p>
-            <p>Start Time: 0600hrs</p>
+            <p>
+              Duration:
+              {SingleAdv.Duration}
+            </p>
+            <p>
+              Start Time:
+              {SingleAdv.startTime}
+            </p>
             <h2 className="uppercase font-bold font-mono tracking-wider mt-4 text-2xl">
               WHAT’S INCLUDED{" "}
             </h2>
-            <p>- Tour guide</p>
-            <p> - Bottle of water</p>
+            {SingleAdv.inclusive.map((item, index) => (
+              <p key={index}>- {item}</p>
+            ))}
 
             <h2 className="uppercase font-bold font-mono tracking-wider mt-4 text-2xl">
               WHAT YOU’LL NEED{" "}
             </h2>
-            <p>- Gear </p>
-            <p>- Meal</p>
+            {SingleAdv.needs.map((item, index) => (
+              <p key={index}>- {item}</p>
+            ))}
           </div>
         </div>
         <div className="my-6 w-full">
@@ -73,7 +65,9 @@ const Adventure = () => {
               <div className="flex flex-row items-center mt-4">
                 <p>
                   Total cost:{" "}
-                  <span className="pl-5 font-bold font-mono">2,500</span>
+                  <span className="pl-5 font-bold font-mono">
+                    {SingleAdv.price}
+                  </span>
                 </p>
                 <button className="text-sm border-2 border-white text-white rounded-md p-1 ml-2 font-mono">
                   KES
