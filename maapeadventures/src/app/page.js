@@ -69,9 +69,12 @@ export default function Home() {
           })}
           <div className="w-6 md:hidden"></div>
         </div>
-        <a className="mt-8 md:mt-12 text-secondary text-xl underline">
+        <Link
+          href={"/alladventures"}
+          className="mt-8 md:mt-12 text-secondary text-xl underline"
+        >
           ALL ADVENTURES
-        </a>
+        </Link>
       </section>
 
       {/* Get in touch */}
