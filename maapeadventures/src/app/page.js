@@ -33,12 +33,14 @@ export default function Home() {
             <p className="my-5 text-xl">
               Welcome and short paragraph of what Maape does.
             </p>
-            <button
-              type="button"
-              className="uppercase font-semibold w-fit text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] px-5 py-2 me-2"
-            >
-              Choose an adventure
-            </button>
+            <Link href={"/alladventures"}>
+              <button
+                type="button"
+                className="uppercase font-semibold w-fit text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] px-5 py-2 me-2"
+              >
+                Choose an adventure
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-full h-full flex md:justify-end md:items-end md:pr-24 2xl:pr-80">
