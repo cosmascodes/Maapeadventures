@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-redTheme py-6 md:py-12 flex flex-col justify-center items-center">
-        <p className="text-center text-white text-sm md:text-md font-semibold md:w-[30%] mb-4">
+        <p className="text-center text-white text-xl font-semibold md:w-[30%] mb-4">
           Call to sign up for newsletter. Lorem ipsum dolor sit amet,
           consectetuer adipiscing elit.
         </p>
