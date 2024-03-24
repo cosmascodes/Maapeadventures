@@ -3,7 +3,8 @@ const AdventuresData = [
     id: "1",
     image: "/images/home_page/u122_a.svg",
     title: "ADVENTURE STORY TITLE",
-    details: "",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
     Duration: "",
     startTime: "",
     price: "2,500",

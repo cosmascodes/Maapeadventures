@@ -11,8 +11,10 @@ const Adventure = ({ searchParams }) => {
 
       <div className="md:w-3/4 flex flex-col justify-between items-center md:px-24">
         <img src={SingleAdv.image} alt="img" className="w-full md:w-auto" />
-        <div className="grid md:grid-cols-2 text-xl">
-          <article>{SingleAdv.details}</article>
+        <div className="grid md:grid-cols-2 text-xl place-content-center place-items-center">
+          <article className="mt-6 font-semibold leading-normal">
+            {SingleAdv.details}
+          </article>
           <div className="mt-6 md:pl-10">
             <h2 className="uppercase font-bold font-mono tracking-wider mt-4 text-2xl">
               itinerary
