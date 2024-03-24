@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* Choose adventures */}
       <section className="md:bg-hero-pattern bg-[length:22vw] bg-[center_right_24rem] bg-no-repeat flex flex-col justify-center items-center md:pt-24 md:pb-12 py-8">
-        <h1 className="font-duality text-3xl md:text-6xl text-text mb-8 md:mb-12">
+        <h1 className="font-duality text-6xl text-text mb-8 md:mb-12 text-center">
           Choose an adventure
         </h1>
         <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto overscroll-x-contain no-scrollbar md:grid-cols-3 md:place-content-center md:gap-12">
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Adventure stories */}
       <section className="md:bg-hero-pattern bg-[length:24vw] bg-[center_left_16rem] bg-no-repeat flex flex-col justify-center items-center md:pt-24 md:pb-12 py-8">
-        <h1 className="font-duality text-3xl md:text-6xl text-text md:mb-12">
+        <h1 className="font-duality text-6xl text-text md:mb-12 text-center px-4">
           Adventure stories
         </h1>
         <div className="w-full md:w-fit grid grid-flow-col md:grid-flow-row overflow-x-auto overscroll-x-contain no-scrollbar md:grid-cols-2 md:place-content-center md:gap-12">
