@@ -86,12 +86,14 @@ export default function Home() {
           <p className="text-sm md:text-xl md:text-center mb-3.5">
             Call to get in touch. Lorem ipsum dolor sit amet.
           </p>
-          <button
-            type="button"
-            className=" w-fit text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
-          >
-            GET IN TOUCH
-          </button>
+          <Link href={"/get_in_touch"}>
+            <button
+              type="button"
+              className=" w-fit text-white font-mono border-2 border-white hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] font-semibold px-5 py-1.5 me-2"
+            >
+              GET IN TOUCH
+            </button>
+          </Link>
         </div>
         <div className="w-1/2 md:w-[40%] h-full bg-hero-map bg-cover md:bg-contain bg-no-repeat bg-left md:bg-right"></div>
       </section>
