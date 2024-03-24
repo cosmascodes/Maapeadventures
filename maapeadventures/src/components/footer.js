@@ -28,9 +28,9 @@ const Footer = () => {
           </button>
         </form>
       </div>
-      <div className="bg-primary flex flex-col md:flex-row justify-between py-6 md:py-12 px-6 md:px-24">
+      <div className="bg-primary flex flex-col md:flex-row justify-center items-center py-6 md:py-12 px-6 md:px-24 text-center">
         <div>
-          <ul className="mb-2 flex flex-col md:flex-row text-secondary underline text-md w-[320px] justify-between">
+          <ul className="mb-2 flex flex-col md:flex-row text-secondary underline text-md w-[320px] justify-between ">
             <li>
               <a href="/our_safety_promise">OUR SAFETY PROMISE</a>
             </li>
@@ -45,7 +45,7 @@ const Footer = () => {
             © 2023 Maape Adventures. All Rights Reserved
           </p>
         </div>
-        <div className=" flex flex-row w-[120px] justify-between mt-2 md:mt-0">
+        <div className=" flex flex-row w-[120px] justify-between mt-auto md:mt-0">
           <Image src={"/images/home_page/u73.svg"} width={35} height={40} />
           <Image src={"/images/home_page/u74.svg"} width={35} height={40} />
           <Image src={"/images/home_page/u72.svg"} width={35} height={40} />

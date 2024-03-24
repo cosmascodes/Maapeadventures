@@ -61,7 +61,7 @@ const Header = () => {
         <ul>
           <li className="hover:text-secondary my-8">
             <a
-              href="#"
+              href="/alladventures"
               className={`${
                 isActive
                   ? "opacity-100 transition-opacity duration-[500ms]"

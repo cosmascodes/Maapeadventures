@@ -45,14 +45,14 @@ const Adventure = ({ searchParams }) => {
             tickets
           </h2>
           <div className="bg-secondary rounded-3xl p-6 text-xl mt-2">
-            <div className="flex md:flex-row justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
               <h2 className="uppercase font-bold text-2xl">adventure title</h2>
               <div className="flex mt-3">
                 <p>Choose date:</p>
                 <input type="text" className=" w-32 p-1 rounded ml-2" />
               </div>
             </div>
-            <div className="mt-6 flex md:flex-row justify-between">
+            <div className="mt-6 flex-col flex md:flex-row justify-between">
               <div className="flex flex-row items-center">
                 <p className="mr-4">No. of tickets:</p>
                 <button className="text-md border-2 border-white w-9 h-9 align-middle text-white rounded-full">
