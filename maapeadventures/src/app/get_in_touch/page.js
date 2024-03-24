@@ -7,13 +7,13 @@ const Contact = () => {
         bibendum laoreet.
       </p>
       <div className="flex flex-col md:flex-row justify-center items-center bg-hero-map bg-no-repeat bg-bottom bg-cover md:pb-60">
-        <div className="bg-secondary rounded-2xl flex justify-center items-center flex-col py-4 my-6 md:mx-5 md:px-5">
+        <div className="w-full md:w-80 bg-secondary rounded-2xl flex justify-center items-center flex-col py-4 my-6 md:mx-5 md:px-5">
           <h2 className="uppercase font-mono font-bold tracking-wider text-xl">
             Mobile
           </h2>
           <p className="text-xl font-mono tracking-wider">0712 345 678</p>
         </div>
-        <div className="bg-secondary rounded-2xl flex justify-center items-center flex-col py-4 my-6  md:mx-5 md:px-5">
+        <div className="w-full md:w-80 bg-secondary rounded-2xl flex justify-center items-center flex-col py-4 my-6  md:mx-5 md:px-5">
           <h2 className="uppercase font-mono font-bold tracking-wider text-xl">
             email
           </h2>
