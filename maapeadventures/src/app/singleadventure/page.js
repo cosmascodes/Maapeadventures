@@ -86,7 +86,7 @@ const Adventure = ({ searchParams }) => {
             </div>
           </div>
         </div>
-        <ul className="text-secondary flex flex-col justify-center items-center">
+        <ul className="text-secondary flex flex-col justify-center items-center text-xl">
           <li className="mt-4 uppercase">
             <a href="#" className="underline">
               FOREIGNERS TRAVEL ADVISORY
