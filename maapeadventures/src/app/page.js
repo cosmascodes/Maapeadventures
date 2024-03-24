@@ -29,7 +29,7 @@ export default function Home() {
       <section className="h-screen 2xl:h-[65vh] relative">
         <div className="z-10 md:bg-hero-pattern md:bg-[length:32vw] 2xl:bg-[length:24vw] md:bg-[center_left_5rem] 2xl:bg-[center_left_16rem] bg-no-repeat md:px-24 2xl:px-96 absolute top-0 left-0 h-full flex items-center">
           <div className="p-5 text-white flex flex-col text-center justify-center items-center md:w-[440px] md:h-[300px] rounded-[36px] md:bg-primary md:mt-10 md:ml-24 2xl:ml-0">
-            <h1 className="font-duality text-5xl">Explore Nairobi</h1>
+            <h1 className="font-duality text-6xl">Explore Nairobi</h1>
             <p className="my-5 text-xl">
               Welcome and short paragraph of what Maape does.
             </p>
