@@ -38,7 +38,7 @@ export default function Home() {
                 type="button"
                 className="uppercase font-semibold w-fit text-text font-mono bg-secondary hover:bg-tertiary focus:ring-4 focus:ring-blue-300 rounded-md text-[12px] px-5 py-2 me-2"
               >
-                Choose an adventure
+                Choose an Adventure
               </button>
             </Link>
           </div>

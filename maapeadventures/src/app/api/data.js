@@ -2,7 +2,7 @@ const AdventuresData = [
   {
     id: "1",
     image: "/images/home_page/u122_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
     Duration: "",
@@ -14,7 +14,7 @@ const AdventuresData = [
   {
     id: "2",
     image: "/images/home_page/u118_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details: "",
     Duration: "",
     startTime: "",
@@ -25,7 +25,7 @@ const AdventuresData = [
   {
     id: "3",
     image: "/images/home_page/u114_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details: "",
     Duration: "",
     startTime: "",
@@ -36,7 +36,7 @@ const AdventuresData = [
   {
     id: "4",
     image: "/images/home_page/u126_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details: "",
     Duration: "",
     startTime: "",
@@ -47,7 +47,7 @@ const AdventuresData = [
   {
     id: "5",
     image: "/images/home_page/u110_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details: "",
     Duration: "",
     startTime: "",
@@ -58,7 +58,7 @@ const AdventuresData = [
   {
     id: "6",
     image: "/images/home_page/u130_a.svg",
-    title: "ADVENTURE STORY TITLE",
+    title: "ADVENTURE TITLE",
     details: "",
     Duration: "",
     startTime: "",
